@@ -18,7 +18,7 @@ const USERNAME = config.username!;
 const ENCRYPTED_TOKEN = Encrypt(TOKEN, USERNAME);
 
 // File paths
-const COMPANY_FILE_PATH = path.resolve(__dirname, 'data', 'Left - CompanyData.xlsx');
+const COMPANY_FILE_PATH = path.resolve(__dirname, 'data', 'CompanyData.xlsx');
 const OFFICER_FILE_PATH = path.resolve(__dirname, 'data', 'OfficerData.xlsx');
 const FAILURE_LOG_PATH = path.resolve(__dirname, 'failures_log.json');
 
